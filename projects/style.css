@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    max-width: 100%;   
+    height: auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.top-left-container{
+    background-image: url(../projects/assests/desktop-image-hero-1.jpg);
+    width: 61vw;
+    height: 64vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* float: left; */
+    /* border: 5px solid blue; */
+}
+
+.top-container{
+    width: 100%;
+    /* border: 5px solid pink; */
+}
+
+.navbar{
+    margin-bottom: 10rem;
+    /* margin-right: -30rem; */
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    padding: 1.6rem;
+}
+
+.nav-p{
+    padding: 2rem 1rem;
+    font-size: 18px;
+}
+
+.top-right-container{
+    margin-top: -24rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    color: black;
+    float: right;
+    /* border: 5px solid green; */
+    margin-right: 4rem;
+    /* margin-bottom: 6rem; */
+}
+
+h1{
+    
+    margin-bottom: 1rem;
+}
+
+.right-p{
+    color: gray;
+}
+
+
+.small-p{
+   font-size: 15px;
+   margin-top: 1rem;
+   font-weight: 600;
+}
+
+.bottom-left-container{
+    /* border: 5px solid red; */
+    float: left;
+    margin-top: -2rem;
+}
+
+.bottom-center-container{
+     color: black;
+     float: center;
+     margin-right: 31rem;
+     margin-left: 30rem;
+     height: auto;
+     margin-bottom: 0;
+     /* border: 5px solid violet; */
+}
+
+.bottom-h2{
+    margin-top: 2rem;
+    padding: none;
+    text-align: left;
+}
+
+.bottom-right-container{
+    float: right;
+    margin-top: -16rem;
+}
