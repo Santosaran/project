@@ -9,6 +9,6 @@
 
 ### Technologies used
 
-   --HTML
+   --HTML 
 
    --CSS 
